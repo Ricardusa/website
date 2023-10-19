@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to Bean Bliss Cafe, a delightful online presence for a coffee haven! This website is designed to showcase the essence of Bean Bliss Cafe, offering a glimpse into the world of exceptional coffee, community, and the joy found in every cup. From our story and artful experiences to a free drink opportunity, explore the rich offerings that Bean Bliss Cafe brings to coffee enthusiasts.
+Coffee Shop Website
 
 ## Technical Specifications
 
@@ -12,7 +12,7 @@ Welcome to Bean Bliss Cafe, a delightful online presence for a coffee haven! Thi
 
 - **JavaScript:** JavaScript is used to enhance interactivity, providing features like a video switch button, a responsive navigation bar, and simple form verification for the sign-up form.
 
-- **External Libraries:** The project utilizes Font Awesome for social icons and Google Fonts to style text with the Raleway font.
+- **External Libraries:** The project utilizes Font Awesome for social icons and Google Fonts to style text.
 
 - **Media Queries:** Responsive design is achieved through media queries to ensure the website adapts gracefully to various screen sizes.
 
