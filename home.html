@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bean Bliss Cafe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/all.js"></script>
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div class="preloader">
+    <img src="video/load.gif" alt="preloader" class="preloader_item">
+  </div>
+  <!-- end preloader -->
+
+  <!--HEADER-->
+  <header class="header" id="header">
+    <!-- banner -->
+    <div class="banner">
+      <h1 class="banner_title">Bean Bliss Cafe</h1>
+        <div class="banner_icons">
+          <a href="#" class="banner_social-icon">
+            <i class="fab fa-linkedin fa-fw"></i>
+          </a>
+          <a href="https://github.com/Ricardusa" target="_blank" class="banner_social-icon">
+            <i class="fab fa-github fa-fw"></i>
+          </a>
+          <a href="#" class="banner_social-icon">
+            <i class="fab fa-google-plus fa-fw"></i>
+          </a>
+        </div>
+    </div>
+    <!-- end of banner -->
+    <!-- VIDEO -->
+    <article class="video_container">
+      <video class="video_item" autoplay muted loop>
+        <source src="video/vid1.mp4" type="video/mp4">
+        <source src="video/video2.ogv" type="video/ogv">
+        <source src="video/video1.webm" type="video/webm">
+          Your browser does not support video tag
+      </video>
+    </article>
+    <!-- end video -->
+    <!-- nav button -->
+    <div class="navBtn">
+      <i class="fas fa-bars"></i>
+    </div>
+    <!-- nav bar -->
+    <nav class="nav">
+      <ul class="nav_links">
+        <!-- logo -->
+        <li>
+          <a href="#" class="nav_single-link">
+            <img src="img/beanLogo.png" alt="logo image">
+          </a>
+        </li>
+        <li>
+          <a href="#header" class="nav_single-link">home</a>
+        </li>
+        <li>
+          <a href="#about" class="nav_single-link">about</a>
+        </li>
+        <li>
+          <a href="menu.html" class="nav_single-link" target="_blank">menu</a>
+        </li>
+        <li>
+          <a href="#drink" class="nav_single-link">drink</a>
+        </li>
+        <li>
+          <a href="contact.html" class="nav_single-link">contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- video switch -->
+    <div class="video_switch-container">
+      <div class="video_switch">
+        <span>on</span>
+        <span>off</span>
+        <div class="video_switch-btn"></div>
+      </div>
+
+    </div>
+  </header>
+  <!--Header End-->
+
+  <!-- ABOUT -->
+  <section class="about section-padding" id="about">
+    <div class="grid-container grid-container--medium-2">
+      <!-- about container -->
+      <article class="about-container">
+        <!-- first child -->
+        <div class="section-title">
+          <h1 class="section-title_name">Our Story</h1>
+          <div class="section-title_underline"></div>
+          <p class="section-title_text">In Phoenix, Bean Bliss Cafe tells a story of exceptional global coffee. From our barista's touch to the hum of espresso machines, each sip in our haven is a cherished moment. More than a cafe, Bean Bliss is a tale of community, conversations, and the artistry of a perfect brew. Amidst the aroma of freshly ground beans, join us in celebrating the joy found in every cup. Welcome to Bean Bliss, where passion and the simple pleasure of a perfect brew unfold in every sip.</p>
+        </div>
+        <!-- second child -->
+        <div class="about_img">
+          <img src="img/about1.png" class="about_img-item" alt="about image">
+        </div>
+      </article>
+      <!--End of about container-->
+      <!-- about container -->
+      <article class="about-container">
+        <!-- first child -->
+        <div class="section-title">
+          <h1 class="section-title_name">What we do</h1>
+          <div class="section-title_underline"></div>
+          <p class="section-title_text">Bean Bliss Cafe is more than coffee; it's an artful experience. From globally sourced beans to skilled baristas, we craft moments that transcend the ordinary. We're a community hub, where exceptional coffee meets connections. Join us to savor the joy in every sip at Bean Bliss Cafe.</p>
+        </div>
+        <!-- second child -->
+        <div class="about_img about_img-special">
+          <img src="img/about2.png" class="about_img-item" alt="about image">
+        </div>
+      </article>
+      <!--End of about container-->
+
+      <!-- Table to display technologies used -->
+    <article class="about-container">
+      <table class="about-table">
+        <tr>
+          <th>HTML</th>
+          <th>CSS</th>
+          <th>JavaScript</th>
+        </tr>
+        <tr>
+          <td>Used for structuring the content</td>
+          <td>Used for styling the website</td>
+          <td>Used for adding interactivity</td>
+        </tr>
+      </table>
+      <!-- End of table -->
+    </article>
+
+    </div>
+  </section>
+  <!-- end of about -->
+
+  <!-- Drink Section -->
+  <section class="drink section-padding" id="drink">
+    <div class="grid-container">
+      <!-- first item -->
+      <form class="drink-form">
+        <p class="drink-form_feedback">Text</p>
+        <h3 class="drink-form_title">Free Drink Opportunity!</h3>
+        <div class="drink-form_input">
+          <input type="text" name="" id="" maxlength="15" class="input-name" placeholder="name">
+        </div>
+        <div class="drink-form_input">
+          <input type="text" name="" id="" maxlength="15" class="input-lastname" placeholder="last name">
+        </div>
+        <div class="drink-form_input">
+          <input type="email" name="" id="" maxlength="15" class="input-email" placeholder="email">
+        </div>
+        <!--new code-->
+        <div class="drink-form_input">
+          <input type="password" name="" id="" class="input-password" placeholder="password">
+        </div>
+        <div class="drink-form_input">
+          <input type="password" name="" id="" class="input-confirm-password" placeholder="confirm password">
+        </div>
+        <input type="submit" value="sign up" class="input-submit">
+      </form>
+      <!-- second item -->
+      <article class="drink-card">
+        <h3 class="drink-card_title">People Registered:</h3>
+        <div class="drink-card_list">
+          <!--<div class="person">
+            <img src="img/person-0.jpeg" alt="person" class="person_thumbnail">
+            <h4 class="person_name">Ricardo</h4>
+            <h4 class="person_last-name">Rivas</h4>
+          </div>-->
+          <!--<div class="person">
+            <img src="img/person-0.jpeg" alt="person" class="person_thumbnail">
+            <h4 class="person_name">Ricardo</h4>
+            <h4 class="person_last-name">Rivas</h4>
+          </div>-->
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- End of drink section -->
+  
+  <!-- FOOTER -->
+  <aside class="custom-aside">
+    <h2>Bean Bliss Cafe</h2>
+    <h3>Your Daily Source of Coffee Delight</h3>
+  </aside>
+
+  <footer class="custom-footer">
+    <p class="cells">Author: Ricardo Rivas</p>
+    <p class="cells"><a href="tel">555.123.4567</a></p>
+    <p class="cells">Open 9am-5pm</p>
+    <p class="cells"><a href="Url Here">beanblisscafe.com</a></p>
+  </footer>
+  <!-- End of Footer -->
+
+  <script src="js/app.js"></script>
+</body>
+</html>
