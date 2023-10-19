@@ -22,4 +22,4 @@ Coffee Shop Website
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Ricardusa/website.github
+   git clone https://github.com/Ricardusa/website.git
